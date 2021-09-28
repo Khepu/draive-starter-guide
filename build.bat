@@ -1,1 +1,1 @@
-pandoc --standalone --listings docs.md --toc -c styles.css --template template.html -o docs.html 
+pandoc --standalone --listings index.md --toc -c ./template/styles.css --template ./template/template.html -o index.html --metadata title="Draive Docs"
