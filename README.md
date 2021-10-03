@@ -1,11 +1,17 @@
-# Editing the template
+# Guide and Docs
 
-Simply edit the template.html file, or the styles.css file, preserving the placeholder pandoc variables.
+## Requirements
 
-# Edit the docs
+- [hugo](https://github.com/gohugoio/hugo)
 
-Edit the index.md file
+## Quickstart
 
-# Building docs
+1) Clone this repository
+```
+git clone https://github.com/Khepu/draive-starter-guide.git
+```
 
-Run the build.bat script, passing relevant configuration
+2) Run hugo server
+```
+hugo server --minify
+```
