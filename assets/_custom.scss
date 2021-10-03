@@ -1,0 +1,14 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+#intro-logo {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  #intro-logo {
+    width: 60%;
+  }
+}
