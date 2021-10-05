@@ -43,7 +43,7 @@ Chore: clean up section
 
 _Note: While branch prefixes should always start with a lowercase letter, the
 same isnt required on commits. Branch names are used by git to organize branches
-in a repo, while commit names are used to to quickly describe the commit's
+in a repo, while commit names are used to quickly describe the commit's
 purpose to a reviewer or other developer. Thus, when naming commits, exact
 typography isnt a concern._
 

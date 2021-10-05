@@ -2,7 +2,7 @@
 
 ## Task Management
 
-We use trello as our main task overview/management tool feel free to create, or
+We use trello as our main task overview/management tool. Feel free to create, or
 add yourself to a ticket after being assigned the relevant task by the repo
 manager.
 
