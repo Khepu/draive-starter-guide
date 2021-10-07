@@ -7,6 +7,16 @@
   margin: auto;
 }
 
+a.book-btn {
+  transition: 300ms all;
+
+  &:hover {
+    text-decoration: none;
+    background: var(--color-link);
+    color: white;
+  }
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
   #intro-logo {
     width: 60%;
