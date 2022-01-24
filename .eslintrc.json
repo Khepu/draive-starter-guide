@@ -1,0 +1,47 @@
+{
+  "globals": {
+    "JSX": "readonly"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jest", "@typescript-eslint"],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "no-console": 1,
+    "no-await-in-loop": "error",
+    "no-promise-executor-return": "error",
+    "no-template-curly-in-string": "error",
+    "no-unsafe-optional-chaining": "error",
+    "no-useless-backreference": "error",
+    "require-atomic-updates": "error",
+    "array-callback-return": "error",
+    "block-scoped-var": "error",
+    "consistent-return": "error",
+    "default-case": "error",
+    "default-case-last": "error",
+    "no-caller": "error",
+    "no-empty-function": "error",
+    "no-eval": "error",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/prefer-as-const": "off"
+  }
+}
