@@ -23,7 +23,7 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-color-primary: #c576cb;
   --ifm-color-primary-dark: #bb5fc2;
   --ifm-color-primary-darker: #b653be;

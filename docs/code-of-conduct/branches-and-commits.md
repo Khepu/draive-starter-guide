@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Branches and Commits
 
 We usually branch off either the `master` or the `develop` branch, based on
@@ -15,4 +16,3 @@ charge of the repo.
 
 Within the branch, frequent, small commits are encouraged as they provide
 extremely valuable insight to our code.
-

@@ -1,9 +1,9 @@
-.logo{
+.logo {
   width: 40%;
 }
 
-@media screen and (max-width: 768px){
-  .logo{
+@media screen and (max-width: 768px) {
+  .logo {
     width: 60%;
   }
 }

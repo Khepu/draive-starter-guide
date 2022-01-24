@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Naming Conventions
 
 We use 4 standard tags for our branch names and our commit names:
@@ -11,6 +12,7 @@ We use 4 standard tags for our branch names and our commit names:
 - `chore`: Minor addition or alteration that should not cause behavior changes
 
 ## Branches
+
 Branch names separate the tag from the description with a `/` and are written in
 lower case with dash separated words.
 
@@ -57,7 +59,6 @@ typography isnt a concern._
 2. Pick the tag that describes the purpose of your branch/commit
 3. Describe your exact additions or changes in as few words as possible, always
    focusing on **what** you did and not **why** or **how** you did it.
-:::
+   :::
 
 Feel free to check what other commits around the codebase are like!
-
