@@ -1,9 +1,8 @@
 name: Test deployment
 
 on:
-  pull_request:
-    branches: [main]
-    paths: [website/**]
+  push:
+    branches: [ docusaurus ]
 
 jobs:
   test-deploy:
